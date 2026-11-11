@@ -49,4 +49,4 @@ CC0：https://creativecommons.org/publicdomain/zero/1.0/
 
 ## 用户提供的图纸与照片
 
-`plan-original.jpg`、`plan-areas.jpg`、`facade-reference.png` 为用户提供的输入/参考，保留原权利。本次按用户要求随私有开发交付保留；没有授予公开发布或转授权的额外权利。不要将本仓库直接改成公开或移除署名后对外再分发。
+`plan-original.jpg`、`plan-areas.jpg`、`facade-reference.png` 为用户提供的输入/参考，保留原权利。本仓库按用户明确要求公开，图纸与照片仅保留原有权利，不因此授予额外转授权或开放许可证。第三方再利用前应自行确认权限；不得移除第三方素材署名。
