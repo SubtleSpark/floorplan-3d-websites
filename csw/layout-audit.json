@@ -1,0 +1,55 @@
+{
+  "units": "metres; based on inferred wall axes and assumed wall thickness, not surveyed dimensions",
+  "north_bedroom": {
+    "bed_outer_bounds": [
+      8.75,
+      0.2,
+      10.9,
+      1.5
+    ],
+    "headboard_gap_to_east_wall": 0.01,
+    "foot_clearance": 0.66,
+    "primary_side_to_shallow_storage": 0.64,
+    "access": "one primary side; 1.20m bed; shallow sliding folded-clothes storage"
+  },
+  "south_bedroom": {
+    "bed_outer_bounds": [
+      7.35,
+      5.45,
+      9.5,
+      7.05
+    ],
+    "headboard_gap_to_east_wall": 0.01,
+    "foot_clearance": 0.66,
+    "wardrobe_front_clearance": 0.85,
+    "south_side_clearance": 0.86,
+    "wardrobe_depth": 0.6
+  },
+  "master_bedroom": {
+    "bed_outer_bounds": [
+      10.53,
+      5.25,
+      12.68,
+      7.15
+    ],
+    "headboard_gap_to_east_wall": 0.01,
+    "foot_clearance": 0.84,
+    "north_side_to_wardrobe_end": 0.6,
+    "south_side_clearance": 0.74,
+    "wardrobe_bounds": [
+      12.08,
+      2.85,
+      12.68,
+      4.65
+    ],
+    "ensuite_entry": "clear; wardrobe ends east of door width"
+  },
+  "webgl_qa": "Cloud browser has WebGL disabled. Do not report browser 3D weather/orbit tested.",
+  "checks": [
+    "node syntax checks",
+    "finite geometry export",
+    "independent Blender textured asset composition",
+    "plan mouse pan/zoom/reset browser interaction",
+    "plan pointer pinch unit test"
+  ]
+}

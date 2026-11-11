@@ -1,0 +1,95 @@
+[
+  {
+    "title": "Gray L-Shaped Couch",
+    "author": "AleixoAlonso",
+    "author_url": "https://sketchfab.com/AleixoAlonso",
+    "source": "https://sketchfab.com/3d-models/gray-l-shaped-couch-f3a71dc05afb46f8a2fae64eba0acc64",
+    "appearance": "Neutral grey textile L-shaped sectional, chaise on viewer left in source thumbnail, thin metal legs, realistic cushion wrinkles. Preferred modern sofa.",
+    "file": "grey-sectional-sofa.glb",
+    "bytes": 5522704,
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "requires_attribution": true,
+    "download_variant": "GLB 1K textures",
+    "embedded_images": 3,
+    "required_extensions": [],
+    "bounds_min": [
+      -1.1318767070770264,
+      4.470348358154297e-08,
+      -0.7343251705169678
+    ],
+    "bounds_max": [
+      1.1117146015167236,
+      0.8421171307563782,
+      0.7879897356033325
+    ],
+    "size_xyz": [
+      2.24359130859375,
+      0.8421170860528946,
+      1.5223149061203003
+    ],
+    "notes": "As-downloaded original. Use Three.js Box3 to normalize/ground before positioning; preserve embedded texture maps."
+  },
+  {
+    "title": "Modern Bed",
+    "author": "Ngngan",
+    "author_url": "https://sketchfab.com/nguyenngocngan130219",
+    "source": "https://sketchfab.com/3d-models/modern-bed-c713701eecbd479ea5ae7918de5de2f2",
+    "appearance": "Grey upholstered frame and headboard, white bedding and pillows, thin dark legs. Realistic folds and fabric textures.",
+    "file": "modern-bed.glb",
+    "bytes": 2446164,
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "requires_attribution": true,
+    "download_variant": "GLB 1K textures",
+    "embedded_images": 3,
+    "required_extensions": [],
+    "bounds_min": [
+      -0.8903269465851339,
+      -0.5361241099371845,
+      -1.0382211186487924
+    ],
+    "bounds_max": [
+      0.90121189583261,
+      0.535313746129163,
+      1.114344535350398
+    ],
+    "size_xyz": [
+      1.7915388424177439,
+      1.0714378560663476,
+      2.1525656539991904
+    ],
+    "notes": "As-downloaded original. Use Three.js Box3 to normalize/ground before positioning; preserve embedded texture maps."
+  },
+  {
+    "title": "Mid Century Modern Sofa",
+    "author": "Tom Seddon",
+    "author_url": "https://sketchfab.com/bloodmeat08",
+    "source": "https://sketchfab.com/3d-models/mid-century-modern-sofa-1f9f52ae17d642b582d0c5ccf9dd64b3",
+    "appearance": "Grey fabric back/arms, beige seat, blue accent cushion, wood legs. Realistic but somewhat vintage.",
+    "file": "mid-century-sofa.glb",
+    "bytes": 3989144,
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "requires_attribution": true,
+    "download_variant": "GLB 1K textures",
+    "embedded_images": 3,
+    "required_extensions": [],
+    "bounds_min": [
+      -46.810935974121094,
+      -0.7317929863929781,
+      -28.769559860229492
+    ],
+    "bounds_max": [
+      46.86018753051758,
+      39.275341033935554,
+      14.509071350097665
+    ],
+    "size_xyz": [
+      93.67112350463867,
+      40.00713402032853,
+      43.278631210327156
+    ],
+    "notes": "As-downloaded original. Use Three.js Box3 to normalize/ground before positioning; preserve embedded texture maps."
+  }
+]

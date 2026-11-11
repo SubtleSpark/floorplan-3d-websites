@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f5f1e9">
+  <meta name="description" content="第一套户型客厅的单站位360°渲染样片，可拖动环视与缩放。">
+  <title>第一套客厅 · 360° 环视</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23a88865'/%3E%3Cpath d='M14 32 32 17 50 32v19H14Z' fill='none' stroke='%23fff9ed' stroke-width='4'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="embedded.css">
+  <script src="viewer.js?v=81a3deb9e115" defer></script>
+</head>
+<body>
+  <header class="masthead" hidden>
+    <a class="brand" href="#main" aria-label="跳至客厅全景"><span class="brand-mark" aria-hidden="true">⌂</span><span>家的样子<span class="brand-sub">空间样片 · 01</span></span></a>
+    <span class="edition"><span class="status-dot"></span>单站位 · 360°</span>
+  </header>
+  <main id="main">
+    <section class="viewer-wrap" aria-label="客厅全景查看器">
+      <div id="viewer" class="viewer" aria-busy="true">
+        <canvas id="panorama" tabindex="0" aria-label="客厅360度全景。拖动环视，双指或滚轮缩放；键盘方向键转向，加减键缩放，Home键重置。" aria-describedby="controls-help"></canvas>
+        <div class="scene-tag" aria-hidden="true"><span class="scene-dot"></span>客厅<span class="tag-divider"></span><span id="render-mode">固定站位</span></div>
+        <div class="loading" id="loading" role="status" aria-live="polite"><div class="load-symbol" aria-hidden="true">360°</div><p id="load-title">正在载入客厅</p><span id="load-detail">准备全景图片…</span><progress id="load-progress" aria-label="全景图片加载进度"></progress></div>
+        <div class="error-panel" id="error-panel" hidden role="alert"><span class="error-icon" aria-hidden="true">!</span><h2 id="error-title">暂时无法打开环视</h2><p id="error-detail"></p><div class="error-actions"><button id="retry" type="button">重新加载</button><a href="assets/living-panorama-6k-a9ab597e767e.jpg" target="_blank" rel="noopener">查看平面全景图 ↗</a></div></div>
+        <div class="hotspot" id="entrance-hotspot" hidden>
+          <button id="entrance-toggle" type="button" aria-expanded="false" aria-controls="entrance-description" aria-label="入口区域尚未完成，查看说明"><span aria-hidden="true">i</span><span>入口待完善</span></button>
+        </div>
+        <div class="hotspot-description" id="entrance-description" hidden><p>门扇与外部走廊尚未完成，此处环境图不代表门外实景。</p><button id="entrance-close" type="button" aria-label="关闭入口说明">×</button></div>
+        <div class="hint" id="gesture-hint" aria-hidden="true"><svg viewBox="0 0 48 24"><path d="M4 12h40M10 6l-6 6 6 6M38 6l6 6-6 6"/></svg><span>拖动，看看四周</span></div>
+        <div class="toolbar" aria-label="全景操作"><div class="zoom-group"><button id="zoom-out" type="button" aria-label="缩小画面" title="缩小（−）" disabled>−</button><output id="zoom-value" aria-label="缩放倍率">1.0×</output><button id="zoom-in" type="button" aria-label="放大画面" title="放大（+）" disabled>+</button></div><span class="toolbar-separator" aria-hidden="true"></span><button id="reset" type="button" title="回到初始方向（Home）" disabled><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 7a6.5 6.5 0 1 1-.3 5M4 3v4h4"/></svg><span>重置方向</span></button></div>
+        <span class="view-status sr-only" id="view-status" role="status" aria-live="polite"></span>
+      </div>
+      <div class="viewer-caption"><p id="controls-help"><span class="desktop-help">鼠标拖动环视 · 滚轮缩放 · 方向键调整</span><span class="touch-help">单指拖动环视 · 双指捏合缩放</span></p><span>一个站位，一圈视野</span></div>
+    </section>
+    <section class="notes" aria-label="样片说明"><div class="note-heading"><span class="small-circle" aria-hidden="true">i</span><h2>关于这份空间初稿</h2></div><div class="note-copy"><p>这是<strong>固定机位 360° 环视</strong>，不能自由走动；家具及细节与原互动模型有差异。尺寸、层高及门窗细节仍含推测，不作施工或采购依据。</p><p class="unfinished" id="unfinished-note"><span>未完成区域</span>入户门扇与门外走廊尚未建成，转向入口时可能看到环境图。它不代表门外实景，也不是已完成的入口设计。</p></div></section>
+    <details class="credits"><summary>素材来源与样片说明 <span aria-hidden="true">＋</span></summary><div class="credits-body"><p>全景为 6144×3072（6K）真实渲染，采用引导降噪。这是后续 Blender 实渲方案，与原互动模型的家具及细节有差异，不是实时自由漫游。窗外为 Poly Haven 的 <a href="https://polyhaven.com/a/bloem_hill_02" target="_blank" rel="noopener">Bloem Hill 02</a> 环境摄影，仅作氛围示意，不代表实际楼层、朝向或地址。</p><ul><li>沙发、茶几及场景中的主卧床：iMeshh，Royalty Free。仅呈现渲染结果，未提供原始模型或贴图。<a href="https://pro.imeshh.com/terms" target="_blank" rel="noopener">许可条款</a></li><li>餐椅、电视柜、木地板与灰泥、环境摄影：Poly Haven，CC0。<a href="https://polyhaven.com/license" target="_blank" rel="noopener">许可</a></li><li>餐桌（abd3d）、电视（Rohma Ansari）：Blendkit，下载条目标示 CC0。<a href="https://www.blendkit.com/docs/licenses/licensing-faq/" target="_blank" rel="noopener">许可说明</a></li><li>Tiles105 瓷砖：ambientCG，CC0。<a href="https://docs.ambientcg.com/license/" target="_blank" rel="noopener">许可</a></li></ul><p>本全景查看器只加载最终渲染图片，不提供这份实渲场景的 3D 模型。查看器不启用陀螺仪，不申请相机、麦克风或位置权限。不支持 WebGL 的浏览器会使用兼容渲染，拖动时采用流畅预览，停下后自动恢复更清晰的画面。</p><p><a href="sources.txt" target="_blank" rel="noopener">完整素材来源说明 ↗</a></p></div></details>
+  </main>
+  <footer hidden><span>第一套户型 / 客厅样片</span><span>CREAM & WOOD</span></footer>
+  <noscript><div class="noscript">浏览器未启用 JavaScript，无法交互环视。<a href="assets/living-panorama-6k-a9ab597e767e.jpg">打开平面全景图</a></div></noscript>
+  <script src="embedded.js" defer></script>
+</body>
+</html>

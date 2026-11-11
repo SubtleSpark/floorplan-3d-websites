@@ -1,0 +1,16 @@
+{
+  "name": "tianyi-c119-space",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.10"
+  },
+  "scripts": {
+    "build": "esbuild main.js --bundle --minify --format=esm --outfile=dist/app.js",
+    "check": "node --check main.js && node --check building.js && node --check plan.js"
+  }
+}

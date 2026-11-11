@@ -1,0 +1,18 @@
+Downloaded from Poly Haven, 2026-11-03.
+All three models and textures are licensed CC0 1.0 (public domain).
+Asset license: https://polyhaven.com/license
+Legal text: https://creativecommons.org/publicdomain/zero/1.0/
+
+modern_arm_chair_01.glb
+Author: Vibrant Nordic
+Source: https://polyhaven.com/a/modern_arm_chair_01
+
+dining_chair_02.glb
+Author: James Ray Cock
+Source: https://polyhaven.com/a/dining_chair_02
+
+modern_coffee_table_01.glb
+Author: Amin
+Source: https://polyhaven.com/a/modern_coffee_table_01
+
+The 1K glTF originals were repackaged to GLB with embedded original geometry and JPEG PBR textures. No login or purchase was required.

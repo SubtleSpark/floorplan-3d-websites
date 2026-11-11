@@ -1,0 +1,5 @@
+[Gray L-Shaped Couch](https://sketchfab.com/3d-models/gray-l-shaped-couch-f3a71dc05afb46f8a2fae64eba0acc64) by [AleixoAlonso](https://sketchfab.com/AleixoAlonso), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). grey-sectional-sofa.glb. Downloaded as GLB with 1K embedded textures. Preserve this credit in the site. Describe further modifications if any.
+
+[Modern Bed](https://sketchfab.com/3d-models/modern-bed-c713701eecbd479ea5ae7918de5de2f2) by [Ngngan](https://sketchfab.com/nguyenngocngan130219), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). modern-bed.glb. Downloaded as GLB with 1K embedded textures. Preserve this credit in the site. Describe further modifications if any.
+
+[Mid Century Modern Sofa](https://sketchfab.com/3d-models/mid-century-modern-sofa-1f9f52ae17d642b582d0c5ccf9dd64b3) by [Tom Seddon](https://sketchfab.com/bloodmeat08), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). mid-century-sofa.glb. Downloaded as GLB with 1K embedded textures. Preserve this credit in the site. Describe further modifications if any.

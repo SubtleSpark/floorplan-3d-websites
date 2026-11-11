@@ -1,0 +1,37 @@
+第一套客厅 · 360° 环视样片
+
+用途与边界
+全景规格：6144×3072像素（6K），Cycles 自适应采样（上限128、下限32、噪声阈值0.005），官方 Open Image Denoise 法线/反照率引导降噪，单一站位。与此前同机位实渲样片使用相同场景、材质、光照和相机。家具及细节与原互动户型模型有差异。
+本全景页面仅包含一张最终渲染的全景图片及自写查看器，不含 .blend、GLB、OBJ、FBX、原始家具贴图或可提取的模型资产。可在固定站位改变观看方向与缩放，不能在房间内自由移动。
+建筑尺寸、层高、墙体、门窗细节及部分布置仍含推测，不是现场复尺成果，不用于施工或采购。入户门扇与门外走廊尚未完成；朝入口看见的环境图不代表门外实景。厨房设备、部分次卧家具与软装也尚未完成。
+
+素材来源
+1. iMeshh（Royalty Free，非 CC0）
+Thick Piping Sofa 01：https://imeshh.com/assets/thick-piping-sofa-3d-model
+Oval Wood Coffee Table 01：https://imeshh.com/assets/wooden-oval-table
+场景中的 Creased Duvet Double Bed 01：https://imeshh.com/assets/creased-fabric-bed-with-black-frame
+条款：https://pro.imeshh.com/terms
+核实日期：2026-11-10。产品页说明渲染图片、动画和客户作品可商业使用；条款第11节规定资产使用许可，并限制可提取、逆向或再分发原资产。本页仅交付渲染结果，不以可提取的3D资产形式分发。
+
+2. Poly Haven（CC0）
+餐椅 dining_chair_02，作者 James Ray Cock：https://polyhaven.com/a/dining_chair_02
+电视柜 modern_wooden_cabinet：https://polyhaven.com/a/modern_wooden_cabinet
+橡木地板 oak_wood_planks：https://polyhaven.com/a/oak_wood_planks
+白色灰泥 white_plaster_02：https://polyhaven.com/a/white_plaster_02
+Bloem Hill 02 环境摄影，Jenelle van Heerden，处理 Greg Zaal：https://polyhaven.com/a/bloem_hill_02
+许可：https://polyhaven.com/license
+窗外摄影仅用于氛围示意，不表示住宅实际地址、楼层或朝向。
+
+3. Blendkit / 原 BlenderKit（下载条目标示 CC0）
+Dining table，abd3d：https://www.blendkit.com/asset-gallery-detail/a85d4f2f-b1d6-4a05-8e54-a3ba0b7efe9f/
+Television，Rohma Ansari：https://www.blendkit.com/asset-gallery-detail/9a1fcd3e-241e-49a1-83fd-73f410f8db4d/
+许可说明：https://www.blendkit.com/docs/licenses/licensing-faq/
+
+4. ambientCG（CC0）
+Tiles105：https://ambientcg.com/view?id=Tiles105
+许可：https://docs.ambientcg.com/license/
+
+查看器
+原生 JavaScript / WebGL / Canvas2D 自写，无第三方运行时依赖，无公网CDN依赖，无自动陀螺仪、自动旋转或数据追踪。
+
+高清显示：兼容路径保留原图分辨率，按需缓存小块；拖动使用流畅预览，停止后分批恢复设备像素密度对应的较高清视图。没有对旧3K图插值后冒称6K渲染。
